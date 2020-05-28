@@ -18,7 +18,7 @@
 
 <body class="m-us l-en page-homepage is-loggedout reboot index-homepage">
           
-<script src="https://www.paypal.com/sdk/js?client-id=AVMos8kI_029Yd8FUoFiHVdlwuY2sjQMxOs46ToEm0ES4Zw3LrPoOArpsY-NmCZLtMPN9FfttW3nrCIl"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=ASuaWMc_bKziMbugvNKfyBB3cs1SC5TqTh1oehTtbNsM9KxzgjJE2Psoy9MsW2SgwkNgr63sw40XFjiR"></script>
           
           <style>
 @charset "UTF-8";.checko-section{margin:0 auto}@media (min-width:768px){.checko-section{width:750px}}@media (min-width:992px){.checko-section{width:970px}}@media (min-width:1200px){.checko-section{width:1170px}}.section-title{font-weight:700}.section-subtitle{font-size:18px;font-weight:400;line-height:24px}#WHY-PREMIUM{padding:48px 16px 64px}#WHY-PREMIUM .benefits-list{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:32px auto 40px}@media (min-width:480px){#WHY-PREMIUM .benefits-list{max-width:600px}}@media (min-width:992px){#WHY-PREMIUM .benefits-list{-ms-flex-wrap:nowrap;flex-wrap:nowrap;max-width:100%}}#WHY-PREMIUM .benefit{background:linear-gradient(335.81deg,rgba(157,213,246,.45) .4%,hsla(0,0%,100%,0) 85.96%),#eee;border-radius:6px;margin:0 4px 16px;width:0;min-width:200px;min-height:345px;padding:22px 24px 0!important;-webkit-box-flex:1;-ms-flex:1 1 0px;flex:1 1 0}#WHY-PREMIUM .benefit header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:100%}#WHY-PREMIUM .benefit h3{font-size:24px;font-weight:600;line-height:28px;letter-spacing:-.04em;margin:20px 0 40px;text-align:center}#WHY-PREMIUM .benefit img{margin:0 auto;height:auto;width:auto}#WHY-PREMIUM .btn{display:block;margin:0 auto;max-width:286px;text-decoration:none}@media (min-width:480px){#WHY-PREMIUM .btn{display:none}}#WHY-PREMIUM .checko-btn-primary{color:#fff!important}#WHY-PREMIUM .checko-btn-secondary{margin-top:16px}@media (min-width:768px){#WHY-PREMIUM .checko-btn-secondary{margin-top:0;margin-left:8px}}#ALL-PLANS-INCLUDE{background:#f87180;margin-top:200px;padding:80px 20px 64px}#ALL-PLANS-INCLUDE .benefits-list{margin:0 auto;max-width:420px;padding-top:12px}#ALL-PLANS-INCLUDE .benefits-list .benefit:before{content:"✓";font-size:22px;height:22px;margin-right:16px;width:28px}#ALL-PLANS-INCLUDE .benefits-list .benefit{font-size:22px;font-weight:300;line-height:29px;margin-top:28px;margin-left:2em;text-align:left;text-indent:-1.8em}
@@ -99,7 +99,7 @@ data-styled.g408[id="sc-pJipy"]{content:"mZVAk,"}
                 <h2 width="" font-weight="" font-size="" class="sc-fzoant Wrtzm">Save 85% compared to Spotify US plans. Expires Jun. 30, 2020<br>Spotify has the same great music catalog worldwide.</h2></div>
                 <br>
                 <div id="paypal-button-container"></div>
-                <h4>We'll create a new Spotify India Premium Account just for you and email you the credentials.<br>Contact us at <a href="mailto:vibhrag@gmail.com">vibhrag@gmail.com</a></h4>
+                <h4>We'll create a new Spotify India Premium Account with your email and send you the credentials.<br>Contact us at <a href="mailto:vibhrag@gmail.com">vibhrag@gmail.com</a></h4>
                 <div><a color="#FFFFFF" border="" class="Button-oyfj48-0 gZRAav sc-AxheI gIhVbn" href="https://www.spotify.com/in/" tabindex="0" target="_blank"><span>Spotify India</span></a></div></div>
             </header>
             <footer direction="ltr" class="sc-fzomME rIiXx">
@@ -171,7 +171,7 @@ data-styled.g408[id="sc-pJipy"]{content:"mZVAk,"}
           // This function captures the funds from the transaction.
           return actions.order.capture().then(function(details) {
             // This function shows a transaction success message to your buyer.
-            alert('Transaction completed by ' + details.payer.name.given_name);
+            alert("Your Payment was successful. Hooray! We'll send you an email shorty with your new Spotify premium account credentials.");
           });
         }
     }).render('#paypal-button-container');
